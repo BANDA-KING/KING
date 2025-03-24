@@ -1,9 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/python
-import platform,os
-#####
-os.system("git pull")
-bit = platform.architecture()[0]
-if bit == '64bit':
-    import KING
-elif bit == '32bit':
-    import KING
+import os 
+os.system('xdg-open https://chat.whatsapp.com/GXwu2LUHSaX1gNklWpls3G')
+import KING
